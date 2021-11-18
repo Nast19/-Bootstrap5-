@@ -1,0 +1,213 @@
+header{
+    background-color: #241F1F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    height: 150px;
+    margin-bottom: 2%;
+}
+footer{
+    background-color: #241F1F;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    height: 180px;
+}
+.pad-f {
+    padding-bottom: 20px;
+}
+.pad{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.pad_1{
+    padding-bottom: 15px;
+}
+.bg{
+    background-color: #256BC2;
+    padding: 10px 40px 10px 40px;
+    border-radius: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoul{
+    margin: 0px;
+    padding-left: 20px;
+}
+body{
+    font-family: 'Verdana', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+p{
+    color: #ffff;
+
+}
+.one{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.two{
+    font-size: 11px;
+}
+a{
+    color:#ffff;
+    text-decoration:none ;
+    font-size: 14px;
+}
+a:hover{
+    color:#6470e0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.tel{
+    display:block;
+    font-size: 12px;
+}
+.p{
+    font-size: 12px;
+}
+li{
+    padding-right: 30px;
+}
+.d-flex{
+    align-items: center;
+}
+.ico{
+    margin-left: -44px;
+}
+.form-control{
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 50%;
+}
+input[placeholder="Знайти..."]{
+    font-size: 12px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+h3{
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 20px;
+}
+select{
+    border: none;
+    background: url(../img/Особистий\ кабінет.svg) no-repeat;
+}
+option{
+    padding: 10px 40px 10px 40px;
+    border-radius: 100px;
+}
+.activnoe{
+    color: gray;
+}
+input.form-control.me-2 {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 18px;
+    border-radius: 100px;
+}
+.form-radio{
+    padding-left: 20px;
+}
+.form-control .me-2{
+    background-image: url(../img/calendar.svg);
+}
+.calendar{
+    width: 3%;
+    margin-left: -50px;
+}
+.adres_1{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+input.form-control.me-2.meme{
+    width: 60%;
+}
+.adres_main{
+    display: flex;
+}
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    padding: 20px 60px;
+}
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+3), .btn-group>:not(.btn-check)+.btn {
+    padding: 20px 60px;
+}
+.btn-primary{
+    text-transform: uppercase;
+    width: 25%;
+    border-radius: 100px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+.otstup {
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+input.card.form-control.me-2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.size{
+    width: 30px;
+    margin-left: 20px;
+}
+.size:hover {
+    box-shadow: 0 0 9px rgb(235 171 171 / 50%);
+    border-radius: 100px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    padding-top: 16%;
+}
+button{
+    background: none;
+    border: none;
+}
+.form-edit{
+    width: 60%;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid;
+}
+.bread {
+    color: black;
+    font-size: 15px;
+}

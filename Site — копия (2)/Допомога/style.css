@@ -1,0 +1,165 @@
+header{
+    background-color: #241F1F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    height: 150px;
+}
+footer{
+    background-color: #241F1F;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    height: 180px;
+}
+.pad-f {
+    padding-bottom: 20px;
+}
+.pad{
+    padding-right: 20px;
+}
+.bg{
+    background-color: #256BC2;
+    padding: 10px 40px 10px 40px;
+    border-radius: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoul{
+    margin: 0px;
+    padding-left: 20px;
+}
+body{
+    font-family: 'Verdana', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+p{
+    color: #ffff;
+}
+.one{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.two{
+    font-size: 11px;
+}
+a{
+    color:#ffff;
+    text-decoration:none ;
+    font-size: 14px;
+}
+a:hover{
+    color:#6470e0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.tel{
+    display:block;
+    font-size: 12px;
+}
+.p{
+    font-size: 12px;
+}
+li{
+    padding-right: 30px;
+}
+.d-flex{
+    align-items: center;
+    padding-right: 15px;
+}
+.ico{
+    margin-left: -44px;
+}
+.form-control{
+    border-radius: 100px;
+    border: 1px solid black;
+    height: 40px;
+    width: 50%;
+}
+input[placeholder="Знайти..."]{
+    font-size: 12px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+    padding: 30px 0;
+    margin: 0;
+}
+h3{
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 50px;
+}
+.navigation{
+    color: black;
+}
+.menuaside{
+    display: block;
+    font-weight: 900;
+}
+.menuaside>li:not(:last-child){
+    padding-bottom: 20px;
+}
+h2::before {
+    content: "";
+    background-image: url(../img/Ellipse\ 55.svg);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    transform: translate(-33px,-20px);
+}
+.shirina{
+    width: 100%;
+}
+.writeus {
+    justify-content: space-between;
+}
+.notice{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 200px;
+}
+.position-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 9%;
+}
+.btn-oform {
+    border-radius: 100px;
+    padding: 10px 30px;
+}
+.bread{
+    color: black;
+    font-size: 15px;
+}
+.activnoe{
+    color: gray;
+}

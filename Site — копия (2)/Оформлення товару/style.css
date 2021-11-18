@@ -1,0 +1,242 @@
+header{
+    background-color: #241F1F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    height: 150px;
+    margin-bottom: 2%;
+}
+footer{
+    background-color: #241F1F;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    height: 180px;
+}
+.pad-f {
+    padding-bottom: 20px;
+}
+.pad{
+    padding-right: 20px;
+}
+.bg{
+    background-color: #256BC2;
+    padding: 10px 40px 10px 40px;
+    border-radius: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoul{
+    margin: 0px;
+    padding-left: 20px;
+}
+body{
+    font-family: 'Verdana', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+p{
+    color: #ffff;
+}
+.one{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.two{
+    font-size: 11px;
+}
+a{
+    color:#ffff;
+    text-decoration:none ;
+    font-size: 14px;
+}
+a:hover{
+    color:#6470e0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.tel{
+    display:block;
+    font-size: 12px;
+}
+.p{
+    font-size: 12px;
+}
+li{
+    padding-right: 30px;
+}
+.d-flex{
+    align-items: center;
+}
+.ico{
+    margin-left: -44px;
+}
+.form-control{
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 50%;
+}
+input[placeholder="Знайти..."]{
+    font-size: 12px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+}
+img{
+    width: 100%;
+}
+section{
+    margin-top: 50px;
+}
+select{
+    border: none;
+    background: url(../img/Особистий\ кабінет.svg) no-repeat;
+}
+option{
+    padding: 10px 40px 10px 40px;
+    border-radius: 100px;
+}
+.activnoe{
+    color: #8f8f8f;
+}
+input.form-control.me-2 {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 18px;
+    border-radius: 100px;
+    width: 100%;
+}
+.form-radio{
+    padding-left: 20px;
+}
+.form-control .me-2{
+    background-image: url(../img/calendar.svg);
+}
+.calendar{
+    width: 3%;
+    margin-left: -50px;
+}
+.adres{
+    margin-top: 20px;
+}
+input.form-control.me-2.meme{
+    width: 50%;
+}
+.adres_main{
+    display: flex;
+}
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    padding: 20px 60px;
+}
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+3), .btn-group>:not(.btn-check)+.btn {
+    padding: 20px 60px;
+}
+.btn-primary{
+    text-transform: uppercase;
+    width: 25%;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: none;
+}
+.otstup {
+    margin-bottom: -36px;
+    margin-top: 40px;
+}
+.list-group{
+    flex-direction: row;
+}
+.btn-outline-primary {
+    color: #0d6efd;
+    border-color: none;
+}
+.btn-outline-primary:active{
+    color: #fff;
+    background-color: none;
+    border-color: none;
+}    
+.list-group-item:last-child {
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-outline-primary {
+    border: none;
+}
+.list-group-item.active{
+    background: none;
+}
+.list-group-item+.list-group-item {
+    border-top-width: 1px;
+}
+.btn-outline-primary:hover {
+    color: blue;
+    background: none;
+    border: none;
+}
+.formpass {
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 2%;
+}
+.ugoda{
+    color: rgb(122, 122, 122);
+}
+.rozmer{
+    font-size: 14px;
+}
+.notice{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+}
+.obvodka {
+    border: 1px solid /*#0d6efd*/rgba(0,0,0,.125);
+    border-top-width: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+}
+input.search-header.form-control.me-2 {
+    width: 50%;
+}
+.pasfor {
+    width: 50%;
+}
+.forget {
+    font-size: 12px;
+    color: gray;
+}
+.bread{
+    color: black;
+    font-size: 15px;
+}
